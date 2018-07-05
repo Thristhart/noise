@@ -1,0 +1,8 @@
+[package]
+name = "noise"
+version = "0.1.0"
+authors = ["Tom Shea <tom@shea.at>"]
+
+[dependencies]
+image = "*"
+rand = "0.5.3"
