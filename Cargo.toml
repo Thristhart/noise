@@ -6,3 +6,6 @@ authors = ["Tom Shea <tom@shea.at>"]
 [dependencies]
 image = "*"
 rand = "0.5.3"
+
+[target.'cfg(wasm32)'.dependencies]
+rand = { version="0.5.3", features = ['stdweb'] }
